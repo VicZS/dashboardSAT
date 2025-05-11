@@ -12,7 +12,7 @@ from app.routes.auth import auth_router
 
 from app.security.jwt_handler import get_password_hash, verify_password, create_access_token
 
-app = FastAPI()
+app = FastAPI(title="Mi API", version="1.0", openapi_prefix="/api/")
 
 app.include_router(auth_router, prefix="/auth", tags=["Authentication"])
 
