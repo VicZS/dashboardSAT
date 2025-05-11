@@ -10,3 +10,4 @@ uvicorn
 numpy
 scipy
 python-multipart
+scikit-learn
