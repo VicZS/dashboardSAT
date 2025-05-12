@@ -6,7 +6,6 @@ python-jose[cryptography]
 passlib[bcrypt]
 pydantic
 uvicorn
-
 numpy
 scipy
 python-multipart
